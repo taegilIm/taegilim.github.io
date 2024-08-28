@@ -1,4 +1,5 @@
-# My GitHub Projects
+My GitHub Projects
+------------------
 
 # Currently Working in Process
 
