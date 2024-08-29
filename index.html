@@ -11,42 +11,36 @@
   </head>
   <body>
     <!-- background -->
-    <div id="background">
-      <div id="blur"></div>
-      <p id="copyrights">Designed by Freepik</p>
-    </div>
-    <button id="toggle">On</button>
+    <canvas id="background-canvas"></canvas>
+    <div id="background-blur"></div>
+    <p id="background-copyrights">Designed by Freepik</p>
+    <button id="toggle-button">On</button>
 
     <!-- main -->
-    <div class="main content">
-      <h1 class="title text-style">Github Projects</h1>
+    <div class="main text-style">
+      <h1 class="main-title">Github Projects</h1>
 
       <!-- projects -->
-      <div id="projects">
-        <div id="scrollbar">
-          <div id="thumb"></div>
+      <div id="main-projects">
+        <div id="project-scrollbar">
+          <div id="project-scrollbar-thumb"></div>
         </div>
 
         <!-- content -->
-        <div class="project">
-          <p class="subject text-style">
-            1. Perspective Transformed Image Generator
-          </p>
-          <div class="info">
+        <div class="main-sub">
+          <p class="sub-title">1. Perspective Transformed Image Generator</p>
+          <div class="sub-info">
             <p class="material-symbols-outlined">menu</p>
-            <button class="info-button text-style" onclick="clickInfoButton(1)">
+            <button
+              class="sub-info-button text-style"
+              onclick="clickInfoButton(3)"
+            >
               Information
             </button>
           </div>
         </div>
-
-        <div class="project">
-          <p class="subject text-style">2. name</p>
-          <div class="info">
-            <p class="material-symbols-outlined">menu</p>
-            <button class="info-button text-style">Information</button>
-          </div>
-        </div>
+        <!-- information here -->
+        <p style="margin-top: 5vh; font-size: 3vw">still empty</p>
       </div>
     </div>
 
